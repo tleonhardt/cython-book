@@ -1,3 +1,4 @@
+# distutils: sources = "mycode.c"
 cdef extern from "mycode.h":
   struct mystruct:
     char * string

@@ -1,3 +1,6 @@
+/**
+ * Example of a C exectuable which embeds a Python interpreter
+ */
 #include <Python.h>
 
 int main (int argc, char ** argv)
