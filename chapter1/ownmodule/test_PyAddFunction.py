@@ -1,3 +1,5 @@
 #!/usr/bin/env python
 from PyAddFunction import Add
-Add(1,2)
+
+def test_add(capsys):
+    assert 3 == Add(1,2)

@@ -1,6 +1,5 @@
-from distutils.core import setup
+from setuptools import setup, Extension
 from Cython.Build import cythonize
-from distutils.extension import Extension
 
 sourcefiles = ['PyAddFunction.pyx', 'AddFunction.c']
 
