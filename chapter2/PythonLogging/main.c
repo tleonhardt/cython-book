@@ -1,9 +1,11 @@
+#include <stdio.h>
 #include "NativeLogging.h"
 
 int main(int argc, char **argv)
 {
     // we want to ensure we use a command line argument for the output log file
     if (argc < 2) {
+        printf("Usage:  %s <logfile>\n", argv[0]);
         return -1;
     }
 

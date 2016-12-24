@@ -1,3 +1,4 @@
 PythonLoggingBackend.h
 PythonLoggingBackend.c
 example
+log*.txt
