@@ -9,11 +9,11 @@ def TestPythonData():
 
     # Print them out
     for dataObject in objectList:
-        print dataObject
+        print(dataObject)
 
     # Show the Mutability
     objectList[1].SetValue(1234)
-    print objectList[1]
+    print(objectList[1])
 
     # all native objects will be deallocated on close
     pass
